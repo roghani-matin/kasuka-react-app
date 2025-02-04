@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kasuka-react-app/static/css/main.3f07ba09.css",
+    "main.js": "/kasuka-react-app/static/js/main.ae371977.js",
+    "static/js/151.1a1d434d.chunk.js": "/kasuka-react-app/static/js/151.1a1d434d.chunk.js",
+    "static/media/testimonials-bg.jpg": "/kasuka-react-app/static/media/testimonials-bg.2cedb539c554cb13a1b6.jpg",
+    "static/media/cta-bg.jpg": "/kasuka-react-app/static/media/cta-bg.63b483a22e14db81b62a.jpg",
+    "static/media/hero-bg.jpg": "/kasuka-react-app/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/counts-img.jpg": "/kasuka-react-app/static/media/counts-img.094a7e63c0e77f9bf822.jpg",
+    "static/media/PeydaWeb-Medium.woff": "/kasuka-react-app/static/media/PeydaWeb-Medium.45475ea02e8c6329cf81.woff",
+    "static/media/YekanBakhFaNum-Regular.woff": "/kasuka-react-app/static/media/YekanBakhFaNum-Regular.77bab7dd3c4d12a12a9d.woff",
+    "index.html": "/kasuka-react-app/index.html",
+    "main.3f07ba09.css.map": "/kasuka-react-app/static/css/main.3f07ba09.css.map",
+    "main.ae371977.js.map": "/kasuka-react-app/static/js/main.ae371977.js.map",
+    "151.1a1d434d.chunk.js.map": "/kasuka-react-app/static/js/151.1a1d434d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f07ba09.css",
+    "static/js/main.ae371977.js"
+  ]
+}
