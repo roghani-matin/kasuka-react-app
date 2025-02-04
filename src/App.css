@@ -1,0 +1,93 @@
+body {
+  direction: rtl;
+}
+header {
+  position: relative;
+  padding: 15px 0;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/public/images/hero/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.4);
+  z-index: -1;
+  background-attachment: fixed;
+}
+.aboutMainContainer {
+  margin-top: 50px;
+}
+.featuresContainer {
+  padding: 40px 0 60px 0;
+  margin-top: 1em;
+}
+.clientsContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 60px;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+.servicesContainer {
+  direction: rtl;
+  margin-top: -50px;
+}
+.ctaContainer {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../public/images/body/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  background-attachment: fixed;
+  margin-top: 60px;
+}
+.portfolioContainer {
+  padding: 60px 0px;
+}
+.countContainer {
+  padding: 60px 0;
+}
+.testimonialsContainer {
+  background-image: url("../public/images/body/testimonials-bg.jpg");
+  background-attachment: fixed;
+  padding: 80px 0;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.testimonialsContainer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.teamMemberContainer {
+  background: #fff;
+  padding: 60px 0;
+}
+.contactFormContainer {
+  padding: 60px 0;
+  overflow: hidden;
+}
+footer {
+  background: black;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .clientsContainer {
+    flex-direction: column;
+  }
+  .servicesContainer {
+    margin-top: unset;
+  }
+}

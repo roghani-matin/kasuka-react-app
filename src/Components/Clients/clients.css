@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.clientLogoImage {
+  display: flex;
+  justify-content: center;
+  max-width: 16%;
+}
+.clientLogoImage img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+  max-width: 75%;
+}
+.clientLogoImage img:hover {
+  filter: unset;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .clientLogoImage {
+    max-width: 100%;
+    margin-bottom: 4em;
+  }
+}

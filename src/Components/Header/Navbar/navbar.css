@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  direction: rtl;
+}
+#LogoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Yekan Bakh FaNum;
+  direction: ltr;
+}
+#LogoLink img {
+  width: 6vh;
+}
+.navBarList {
+  display: flex;
+  direction: rtl;
+  justify-content: space-around;
+}
+.navBarList li {
+  list-style-type: none;
+}
+.navBarList li a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-family: Yekan Bakh FaNum;
+}
+.navBarList li a:hover{
+    color: #ffc451;
+}
+button {
+  color: #fff;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+  background-color: unset;
+  font-family: Yekan Bakh FaNum;
+}
+button:hover{
+    background-color: #ffc451;
+    color: #373c40;
+}
+@media (max-width: 768px) {
+  nav{
+    display: none;
+  }
+}

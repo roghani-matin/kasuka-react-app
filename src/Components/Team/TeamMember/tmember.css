@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+.teamMemberCard {
+  padding: 0 12px;
+  width: 25%;
+}
+.teamMamberContent {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.imageContainer img {
+  width: 100%;
+}
+.teamSocial {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  text-align: center;
+  transform: translateY(-20px);
+}
+.imageContainer:hover .teamSocial {
+  opacity: 1;
+  transform: translateY(0);
+}
+.teamSocial a {
+  transition: color 0.3s;
+  color: #151515;
+  margin: 0 5px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: ease-in-out 0.3s;
+  color: #484848;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.teamSocial a:hover {
+  color: #151515;
+  background: #ffc451;
+}
+.teamSocial a i {
+  font-size: 22px;
+  line-height: 0;
+}
+.imageContainerInfos {
+  padding: 22px 15px;
+}
+.imageContainerInfos h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #151515;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.imageContainerInfos span{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+  font-family: Yekan Bakh FaNum Regular;
+
+}
+@media (max-width: 768px){
+  .teamMemberCard{
+    width: 100%;
+}
+}

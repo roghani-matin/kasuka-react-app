@@ -1,0 +1,71 @@
+import "./App.css";
+import Header from "./Components/Header/header";
+import About from "./Components/About/about";
+import Clients from "./Components/Clients/clients";
+import Features from "./Components/Features/features";
+import Services from "./Components/Services/services";
+import CallToAction from "./Components/CTA/cta";
+import Portfolio from "./Components/Portfolio/portfolio";
+import Count from "./Components/Count/count";
+import Testimonials from "./Components/Testimonials/testimonials";
+import Team from "./Components/Team/team";
+import Contact from "./Components/Contact/contact";
+import Footer from "./Components/Footer/footer";
+
+function App() {
+  const clientImages = [
+    {id:1 , imageName:"client-1.png"},
+    {id:2 , imageName:"client-2.png"},
+    {id:3 , imageName:"client-3.png"},
+    {id:4 , imageName:"client-4.png"},
+    {id:5 , imageName:"client-5.png"},
+    {id:6 , imageName:"client-6.png"},
+  ]
+  return (
+    <div className="App">
+      <header>
+        <Header />
+      </header>
+      <section className="aboutMainContainer">
+        <About />
+      </section>
+      <section className="clientsContainer">
+        <Clients {...clientImages[0]} />
+        <Clients {...clientImages[1]} />
+        <Clients {...clientImages[2]} />
+        <Clients {...clientImages[3]} />
+        <Clients {...clientImages[4]} />
+        <Clients {...clientImages[5]} />
+      </section>
+      <section className="featuresContainer">
+        <Features />
+      </section>
+      <section className="servicesContainer">
+        <Services />
+      </section>
+      <section className="ctaContainer">
+        <CallToAction/>
+      </section>
+      <section className="portfolioContainer">
+        <Portfolio/>
+      </section>
+      <section className="countContainer">
+        <Count/>
+      </section>
+      <section className="testimonialsContainer">
+        <Testimonials/>
+      </section>
+      <section className="teamMemberContainer">
+        <Team/>
+      </section>
+      <section className="contactFormContainer">
+        <Contact/>
+      </section>
+      <footer id="footer">
+        <Footer/>
+      </footer>
+    </div>
+  );
+}
+
+export default App;

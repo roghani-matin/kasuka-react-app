@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+.mainFeatureItem {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mainFeatureItem i {
+  font-size: 48px;
+  color: #ffc451;
+}
+.featureItemText h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #444444;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.featureItemText p {
+  font-size: 15px;
+  color: #848484;
+  /* margin-right: 60px; */
+  text-align: justify;
+  font-family: Yekan Bakh FaNum Regular;
+}
+@media (max-width: 768px) {
+  .featureItemText p {
+    font-size: 14px;
+  }
+  .mainFeatureItem i {
+    font-size: 42px;
+  }
+  .featureItemText h2 {
+    font-size: 18px;
+  }
+}

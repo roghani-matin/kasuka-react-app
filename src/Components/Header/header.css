@@ -1,0 +1,16 @@
+.originalHeroCoantainer{
+    padding: 60px 125px;
+    margin-top: 75px;
+}
+.mainHeaderCardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+@media (max-width :768px){
+    .originalHeroCoantainer{
+        padding: 0px 0px;
+        margin-top: 75px;
+    }
+  }

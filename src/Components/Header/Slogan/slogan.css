@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.sloganContainer {
+  text-align: center;
+  direction: rtl;
+}
+.sloganContainer h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: Yekan Bakh FaNum;
+}
+.sloganContainer h1 span {
+  display: block;
+  color: #ffc451;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+}
+.sloganContainer h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+  font-family: Yekan Bakh FaNum;
+  letter-spacing: 0.5px;
+}
+@media (max-width :768px){
+  .sloganContainer h1 {
+    font-size: 30px;
+    line-height: 64px;
+  }
+  .sloganContainer h1 span {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 64px;
+  }
+  .sloganContainer h2{
+    font-size: 20px;
+  }
+  .sloganContainer{
+    padding: 0 12px;
+  }
+}

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+.servicesMainContainer {
+  margin: 0 100px;
+  padding: 0 12px;
+}
+.sercivesTitle {
+  padding-bottom: 40px;
+}
+.sercivesTitle h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.sercivesTitle h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
+}
+.sercivesTitle p {
+  margin: 0;
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "irsans", irsans, sans-serif;
+  color: #151515;
+  text-align: justify;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.servicesItems{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.servicesMainContent {
+  flex: 1 1 30%;
+  display: flex;
+}
+
+
+@media (max-width: 768px) {
+  .servicesMainContainer {
+    margin: unset;
+  }
+  .servicesItems {
+    justify-content: center;
+  }
+}

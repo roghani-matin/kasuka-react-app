@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+.countMainContainer{
+    margin: 0 100px;
+    padding: 0 12px;
+}
+.countClientImage{
+    padding: 0 12px;
+    background-image: url("/public/images/body/counts-img.jpg");
+    background-size: cover;
+    min-height: 400px;
+    width: 42%;
+}
+.countClientNumbers{
+    padding: 0 4px 0 48px;
+    width: 58%;
+}
+.originalCountContent{
+    padding: 30px;
+}
+.originalCountContent h3{
+    font-weight: 700;
+    font-size: 34px;
+    color: #151515;
+    margin-bottom: 8px;
+    font-family: Yekan Bakh FaNum Regular;
+}
+.originalCountContent p{
+    text-align: justify;
+    color: #444444;
+    font-family: Yekan Bakh FaNum Regular;
+}
+.countMainContent{
+    display: flex;
+}
+.countMainIcon{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .countMainContainer{
+        margin: unset;
+    }
+    .countMainContent{
+        flex-direction: column;
+    }
+    .countClientImage{
+        width: 96%;
+        margin: 20px auto;
+        min-height: 72vh;
+    }
+    .countClientNumbers{
+        width: 100%;
+        padding:  unset;
+    }
+    .originalCountContent{
+        padding: unset;
+    }
+    .originalCountContent h3{
+        font-size: 28px;
+    }
+    .originalCountContent p {
+        padding:  0 12px;
+    }
+}

@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+form {
+  width: 100%;
+}
+.nameEmail {
+  display: flex;
+  gap: 10px;
+}
+.nameInput,
+.emailInput {
+  padding: 0 12px 8px 12px;
+  flex: 1;
+}
+.nameEmail input {
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 44px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  appearance: none;
+  font-family: Yekan Bakh FaNum Regular;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.nameEmail input:focus {
+  border: 1px solid #ffc451;
+  outline: none;
+}
+.formMessage textarea:focus {
+  border: 1px solid #ffc451;
+  outline: none;
+}
+.formTitle input:focus{
+  border: 1px solid #ffc451;
+  outline: none;
+}
+.emailInput {
+  padding: 0 12px 8px 12px;
+  max-width: 100%;
+}
+.formTitle {
+  margin-top: 16px;
+  padding-bottom: 8px;
+}
+.formTitle input {
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 44px;
+  display: block;
+  width: 97%;
+  padding: 6px 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  appearance: none;
+  font-family: Yekan Bakh FaNum Regular;
+  border-radius: 0.25rem;
+  margin: 0 auto;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.formMessage {
+  padding-bottom: 8px;
+  margin-top: 16px;
+}
+.formMessage textarea {
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+  display: block;
+  width: 97%;
+  padding: 6px 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  appearance: none;
+  font-family: Yekan Bakh FaNum Regular;
+  border-radius: 0.25rem;
+  margin: 0 auto;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formSubmitButton {
+  text-align: center;
+}
+.formSubmitButton button {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+@media (max-width: 768px) {
+  .formMessage textarea,
+  .formTitle input {
+    width: 93%;
+  }
+}

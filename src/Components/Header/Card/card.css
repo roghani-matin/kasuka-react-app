@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cardContainer{
+    margin-top: 3rem;
+    padding: 0 12px;
+}
+.card{
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+    min-width: 180px;
+    max-width: 200px;
+}
+.card:hover{
+    border: 1px solid #ffc451;
+
+}
+.card i{
+    font-size: 32px;
+    line-height: 1;
+    color: #ffc451;
+}
+.card h3 {
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    padding: 0 20px;
+    line-height: 1;
+    font-size: 20px;
+    line-height: 26px;
+}
+.card h3 a{
+    color: #fff;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;  
+    font-family: Yekan Bakh FaNum;
+    letter-spacing: 0.5px;
+}
+.card h3 a:hover{
+    color: #ffc451;
+
+}

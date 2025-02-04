@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+.portfolioMainItem {
+  padding: 0 12px;
+  margin-bottom: 30px;
+  max-width: 32%;
+  margin-bottom: -100px;
+}
+.portfolioMainItem img {
+  width: 100%;
+  display: block;
+}
+.portfolioInfos {
+  opacity: 0;
+  position: relative;
+  top: -120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
+.portfolioOriginalContent:hover .portfolioInfos {
+  opacity: 1;
+}
+.productImage {
+  transition: all ease-in-out 0.3s;
+  object-fit: cover;
+}
+.portfolioOriginalContent:hover .productImage {
+  filter: brightness(0.5);
+  transform: scale(1.05);
+}
+.portfolioInfos h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.portfolioInfos span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.portfolioInfosIcon a {
+  color: #fff;
+  margin: 0 5px 0 0;
+  font-size: 20px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.portfolioInfosIcon a:hover {
+  color: #ffc451;
+}
+.portfolioInfosIcon {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .portfolioMainItem {
+    max-width: 100%;
+    margin: 0px auto;
+    margin-bottom: -100px;
+  }
+  .portfolioMainItem img {
+    margin: 0 auto;
+  }
+}

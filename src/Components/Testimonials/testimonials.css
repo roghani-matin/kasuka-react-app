@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+
+.testimonialsMainContainer {
+  padding: 0 12px;
+  margin: 0 100px;
+}
+.testimonialsItems {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+.testimonialsOriginalContent {
+  text-align: center;
+  color: #fff;
+}
+.testimonialsOriginalContent img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+.testimonialsOriginalContent h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.testimonialsOriginalContent h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.testimonialsOriginalContent p {
+  margin: 0 auto 15px auto;
+  color: #eee;
+  text-align: center;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.testimonialsOriginalContent p i {
+  display: inline-block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 26px;
+}
+@media (max-width: 768px){
+  .testimonialsMainContainer{
+    margin: unset;
+  }
+}

@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan Bakh FaNum;
+  src: url(/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff);
+}
+@font-face {
+  font-family: Yekan Bakh FaNum Regular;
+  src: url(/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff);
+}
+.footerMainContent {
+  background: #151515;
+  border-bottom: 1px solid #222222;
+  padding: 60px 0 30px 0;
+}
+.footerOriginalContainer {
+  margin: 0 100px;
+  padding: 0 12px;
+}
+.footerCompanyName {
+  padding: 0 12px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerCompanyName h3 {
+  font-size: 28px;
+  margin: -20px 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Yekan Bakh FaNum;
+  display: flex;
+  align-items: center;
+}
+.footerCompanyName h3 img {
+  max-width: 10vh;
+  height: auto;
+}
+.footerCompanyName p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: justify;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.footerSocialIcons {
+  margin-top: 16px;
+}
+.footerSocialIcons a {
+  font-size: 16px;
+  display: inline-block;
+  background: #292929;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 6px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.footerSocialIcons a:hover {
+  color: #292929;
+  background: #ffc451;
+  text-decoration: none;
+}
+.quickLinks {
+  margin-bottom: 30px;
+  padding: 0 12px;
+  direction: rtl;
+}
+.quickLinks h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.quickLinks ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.quickLinks ul li i {
+  padding-right: 2px;
+  color: #ffc451;
+  font-size: 14px;
+  line-height: 1;
+  margin-left: 10px;
+}
+.quickLinks ul li a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  font-family: Yekan Bakh FaNum Regular;
+  font-weight: 700;
+}
+.quickLinks ul li a:hover {
+  color: #ffc451;
+}
+.newsletter {
+  padding: 0 12px;
+}
+.newsletter h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.newsletter p {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 14px;
+  font-family: Yekan Bakh FaNum Regular;
+}
+.newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+.newsletter form .joinUsInput {
+  border: 0;
+  padding: 4px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+.newsletter form .submitButton {
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #ffc451;
+  color: #151515;
+  transition: 0.3s;
+  border-radius: 4px 0 0 4px;
+  font-family: Yekan Bakh FaNum Regular;
+  position: absolute;
+  top: 0;
+  left: -2px;
+  bottom: 0;
+}
+@media (max-width: 768px) {
+    .footerCompanyName{
+        flex-direction: column;
+        gap: 45px;
+    }
+    .quickLinks{
+        margin-bottom: 0px;
+    }
+    .footerCompanyName h3{
+        margin-top: 0px;
+    }
+    .footerOriginalContainer{
+        margin: unset;
+    }
+    .quickLinks h4{
+        padding-bottom: 0px;
+    }
+}
