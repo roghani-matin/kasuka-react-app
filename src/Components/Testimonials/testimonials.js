@@ -6,7 +6,7 @@ export default function Testimonials() {
       <div className="testimonialsItems">
         <div className="testimonialsOriginalContent">
             <img 
-            src="./images/body/testimonialsMember.jpg"
+            src={`${process.env.PUBLIC_URL}/images/body/testimonialsMember.jpg`}
             alt="testimonialsMember"/>
             <h3>ساول گودمن</h3>
             <h4> مدیران عامل : پایه گذار</h4>

@@ -5,7 +5,7 @@ export default function CountIcon({iconName,countNumber,boldText,normalText}) {
     <div className="counMainContainer">
       <div className="countIconBox">
         <div className="NumberIcon">
-          <i class={iconName}></i>
+          <i className={iconName}></i>
           <span>{countNumber} </span>
         </div>
         <p>

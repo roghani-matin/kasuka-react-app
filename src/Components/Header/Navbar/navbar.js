@@ -4,7 +4,7 @@ function Navbar() {
     <nav>
       <a href="https://www.google.com" target="blank" id="LogoLink">
         Kasuka
-        <img src="./images/hero/logo512.png" alt="Logo" />
+        <img src={`${process.env.PUBLIC_URL}/images/hero/logo512.png`} alt="Logo" />
       </a>
       <ul className="navBarList">
         <li><a href="https://www.google.com">خانه</a></li>

@@ -21,14 +21,14 @@ export default function About() {
           </p>
           <ul className="aboutList">
             <li>
-              <i class="fa-solid fa-check-double"></i>
+              <i className="fa-solid fa-check-double"></i>
               <span>
                 ۱۰ سال تجربه ارایه خدمات تخصصی دیجیتال مارکتینگ و راهکارهای نوین
                 بازاریابی
               </span>
             </li>
             <li>
-              <i class="fa-solid fa-check-double"></i>
+              <i className="fa-solid fa-check-double"></i>
               <span>
                 تمرکز ما در تمامی استراتژی های اجرایی معطوف به دیجیتال برندینگ و
                 همسو کردن استراتژی های دیجیتال مارکتینگ با دیگر فعالیت های
@@ -36,7 +36,7 @@ export default function About() {
               </span>
             </li>
             <li>
-              <i class="fa-solid fa-check-double"></i>
+              <i className="fa-solid fa-check-double"></i>
               <span>
                 برای دریافت آخرین اخبار، گرایش ها و رویداد های دیجیتال مارکتینگ
                 ثبت نام کنید
@@ -48,7 +48,7 @@ export default function About() {
           </p>
         </div>
         <div className="aboutImageContainer">
-          <img src="./images/body/about.jpg" alt="aboutImage" />
+          <img src={`${process.env.PUBLIC_URL}/images/body/about.jpg`} alt="aboutImage" />
         </div>
       </div>
     </div>

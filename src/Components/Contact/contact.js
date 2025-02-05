@@ -12,21 +12,21 @@ export default function Contact() {
         <div className="contactFormInfos">
           <div className="mainInfos">
             <div className="location">
-              <i class="fa-solid fa-location-dot"></i>
+              <i className="fa-solid fa-location-dot"></i>
               <div>
                 <h4>مکان:</h4>
                 <p>تهران خیابان آزادی</p>
               </div>
             </div>
             <div className="email">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               <div>
                 <h4>ایمیل:</h4>
                 <p> info@example.com </p>
               </div>
             </div>
             <div className="phoneNumber">
-              <i class="fa-solid fa-mobile-button"></i>
+              <i className="fa-solid fa-mobile-button"></i>
               <div>
                 <h4>شماره تماس:</h4>
                 <p>0123467889</p>

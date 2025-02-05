@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footerCompanyName">
           <div className="footerInfos">
             <h3>
-              <img src="./images/hero/logo512.png" alt="Logo" />
+              <img src={`${process.env.PUBLIC_URL}/images/hero/logo512.png`} alt="Logo" />
               Kasuka
             </h3>
             <p>
