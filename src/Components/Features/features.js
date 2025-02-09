@@ -44,10 +44,9 @@ export default class Features extends Component {
           />
         </div>
         <div className="featureText">
-          <FeaturesItem {...this.state.featureInformation[0]} />
-          <FeaturesItem {...this.state.featureInformation[1]} />
-          <FeaturesItem {...this.state.featureInformation[2]} />
-          <FeaturesItem {...this.state.featureInformation[3]} />
+          {this.state.featureInformation.map((featureInfos) => (
+            <FeaturesItem key={featureInfos.id} {...featureInfos} />
+          ))}
         </div>
       </div>
     );

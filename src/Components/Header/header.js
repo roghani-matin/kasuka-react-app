@@ -25,11 +25,9 @@ export default class Header extends Component {
         <div className="originalHeroCoantainer">
           <Slogan />
           <div className="mainHeaderCardContainer">
-            <Card {...this.state.cardsInformation[0]} />
-            <Card {...this.state.cardsInformation[1]} />
-            <Card {...this.state.cardsInformation[2]} />
-            <Card {...this.state.cardsInformation[3]} />
-            <Card {...this.state.cardsInformation[4]} />
+            {this.state.cardsInformation.map( (cardInfos) => (
+              <Card key={cardInfos.id} {...cardInfos} />
+            ))}
           </div>
         </div>
       </div>

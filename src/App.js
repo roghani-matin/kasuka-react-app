@@ -40,12 +40,9 @@ export default class App extends Component {
             <About />
           </section>
           <section className="clientsContainer">
-            <Clients {...this.state.clientImages[0]} />
-            <Clients {...this.state.clientImages[1]} />
-            <Clients {...this.state.clientImages[2]} />
-            <Clients {...this.state.clientImages[3]} />
-            <Clients {...this.state.clientImages[4]} />
-            <Clients {...this.state.clientImages[5]} />
+            {this.state.clientImages.map( (clientsLogo) => (
+              <Clients key={clientsLogo.id} {...clientsLogo} />
+            ))}
           </section>
 
           <section className="featuresContainer">
